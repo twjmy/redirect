@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url='https://github.com/twjmy'" />
+  </head>
+  <body>
+    Redirecting...
+    If you are not redirected automatically, please <a href='https://github.com/twjmy'>click here</a>.
+    <script>
+        location.href = `http://github.com/twjmy`;
+        switch (navigator.language){
+            case `zh-TW`:
+                document.body.innerHTML = document.title = `
+                  正在重新導向...
+                  若您未正確重新導向，請<a href="https://github.com/twjmy">點擊此處</a>
+                `;
+                break;
+        }
+    </script>
+  </body>
+</html>
